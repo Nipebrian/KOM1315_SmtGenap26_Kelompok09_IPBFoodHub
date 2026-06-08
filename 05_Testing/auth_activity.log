@@ -1,0 +1,10 @@
+{"ts":"2026-01-01T00:00:00.000000+00:00","user_id":null,"action":"LOG_INIT","details":"IPB Food Hub AAA audit log initialized","ip":""}
+{"ts":"2026-06-05T08:00:00.000000+00:00","user_id":"admin@ipbfoodhub.ac.id","action":"LOGIN_SUCCESS","details":"role=admin","ip":"127.0.0.1"}
+{"ts":"2026-06-05T08:05:00.000000+00:00","user_id":"mahasiswa@apps.ipb.ac.id","action":"LOGIN_FAILED","details":"invalid_credentials","ip":"127.0.0.1"}
+{"ts":"2026-06-05T08:06:00.000000+00:00","user_id":"mahasiswa@apps.ipb.ac.id","action":"LOGIN_FAILED","details":"invalid_credentials","ip":"127.0.0.1"}
+{"ts":"2026-06-05T08:07:00.000000+00:00","user_id":"mahasiswa@apps.ipb.ac.id","action":"LOGIN_FAILED","details":"invalid_credentials","ip":"127.0.0.1"}
+{"ts":"2026-06-05T08:30:00.000000+00:00","user_id":"umkm@ipbfoodhub.ac.id","action":"LOGIN_SUCCESS","details":"role=umkm","ip":"192.168.1.5"}
+{"ts":"2026-06-05T09:00:00.000000+00:00","user_id":"mahasiswa2@apps.ipb.ac.id","action":"LOGIN_SUCCESS","details":"role=mahasiswa","ip":"10.0.0.2"}
+{"ts":"2026-06-05T09:15:00.000000+00:00","user_id":"mahasiswa2@apps.ipb.ac.id","action":"ACCESS_GRANTED","details":"role=mahasiswa","ip":"10.0.0.2"}
+{"ts":"2026-06-05T09:30:00.000000+00:00","user_id":"mahasiswa2@apps.ipb.ac.id","action":"ACCESS_DENIED","details":"required=['admin'], actual_role=mahasiswa","ip":"10.0.0.2"}
+{"ts":"2026-06-05T10:00:00.000000+00:00","user_id":"admin@ipbfoodhub.ac.id","action":"ACCESS_GRANTED","details":"role=admin","ip":"127.0.0.1"}
